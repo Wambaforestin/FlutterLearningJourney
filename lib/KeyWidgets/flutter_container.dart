@@ -14,7 +14,7 @@ class MyFirstContainer extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('My First Container @WAMBA Forestin'),
+          title: const Text('My First Container @flutterlearningjourney'),
           backgroundColor: Colors.deepOrangeAccent,
         ),
         body: Container(

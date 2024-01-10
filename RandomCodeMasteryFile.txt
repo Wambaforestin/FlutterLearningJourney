@@ -1,0 +1,147 @@
+// writting the code of a simple flutter project with a stateful widget.
+
+import 'package:flutter/material.dart';
+
+void main() => runApp( const MyFirstApp());
+
+class MyFirstApp extends StatefulWidget{
+	const MtfirstApp({key? key} : super(key : key));
+	@override
+	State<MyFirstApp> createState() => _MyFirstApp();
+}
+
+class _MyfirstApp extends State<MyfirstApp>{
+	@override
+	Widget build(BuildConctext context){
+	return MaterialApp(
+		home : Scaffold(
+		//.....................................rest of the content here !
+		
+),
+);
+}
+	
+}
+
+//creating a simple flutter application with 5 simple tabs
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(TabsDemo());
+
+class TabsDemo extends StatelessWidget{
+	const TabsDemo({key? key}) : super(key : key);
+	@override
+	Widget build(BuilContext context){
+		return MaterialApp(
+		home : DefaultTabController(
+			isCrollable: true,
+			tab :[
+			Tab(
+	icon: Icon(Icons.add)
+)
+			Tab(
+	icon: Icon(Icons.add)
+			Tab(
+	icon: Icon(Icons.add)
+)
+			Tab(
+	icon: Icon(Icons.add)
+)
+			Tab(
+	icon: Icon(Icons.add)
+)
+)
+
+]
+
+),
+);
+	}
+
+}
+//creating a list view
+
+import 'package:flutter/material.dart';
+
+void main() => runApp(const listviewExample());
+
+class listviewExample extends StatelessWidget{
+	const listviewExample({key? key}) : super(key:key)
+	@override
+	Widget build(BuilContext constext){
+		return MaterialApp(
+			title : 'listviewExample'
+			home : Scaffold(
+				appBar : appBar(
+					backgroundColor: Colors.red,
+					child: Text('listviewExample @flutterlearningjourney'),
+				)
+			body : listView (
+				children: <Widget>[
+					listTile(
+						leading: Icon(Icons.home),
+						title: Text('home'),
+						subtitle: Text(''My house),
+						trailing: Icon(Icons.keyboard_arrow_right),
+						onTap: (){
+							//do something.
+						}
+					)
+					listTile(
+						leading: Icon(Icons.home),
+						title: Text('home'),
+						subtitle: Text(''My house),
+						trailing: Icon(Icons.keyboard_arrow_right),
+						onTap: (){
+							//do something.
+						}
+					)
+					listTile(
+						leading: Icon(Icons.home),
+						title: Text('home'),
+						subtitle: Text(''My house),
+						trailing: Icon(Icons.keyboard_arrow_right),
+						onTap: (){
+							//do something.
+						}
+					)
+					listTile(
+						leading: Icon(Icons.home),
+						title: Text('home'),
+						subtitle: Text(''My house),
+						trailing: Icon(Icons.keyboard_arrow_right),
+						onTap: (){
+							//do something.
+						}
+					)
+					//just change the different listviews
+				]
+			)
+			//adding a bottomnavigation bar
+			bottomNavigationbar : BottomNavigationBar{
+				items : <BottomNavigationitem>[
+					BottomNavigationitem(
+						 icon: Icon(Icons.home),
+            			label: 'Home',
+            			backgroundColor: Colors.blue,
+					)
+					BottomNavigationitem(
+						 icon: Icon(Icons.home),
+            			label: 'Home',
+            			backgroundColor: Colors.blue,
+					)
+					BottomNavigationitem(
+						 icon: Icon(Icons.home),
+            			label: 'Home',
+            			backgroundColor: Colors.blue,
+					)
+				]
+			}
+			);
+		);
+	}
+}
+
+
+//write the code for flutter rows, columns, and listviews essential!!!

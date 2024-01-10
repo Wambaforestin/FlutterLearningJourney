@@ -8,14 +8,14 @@ class MyFirstScaffold extends StatelessWidget {
   const MyFirstScaffold({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext consext) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
           title: const Text(
-            'My first scaffold @WAMBA Forestin',
+            'My first scaffold @flutterlearningjourney',
             style: TextStyle(
               fontSize: 20,
               color: Colors.white,
@@ -24,7 +24,7 @@ class MyFirstScaffold extends StatelessWidget {
         ),
         body: const Center(
           child: Text(
-            'This is Scaffold',
+            'This is a Scaffold',
           ),
         ),
         drawer: Drawer(
@@ -112,7 +112,7 @@ class MyFirstScaffold extends StatelessWidget {
         bottomNavigationBar: BottomNavigationBar(
             currentIndex: 0,
             fixedColor: Colors.blue,
-            items: const [
+            items: const<BottomNavigationBarItem> [
               BottomNavigationBarItem(
                 label: "Home",
                 icon: Icon(Icons.home),

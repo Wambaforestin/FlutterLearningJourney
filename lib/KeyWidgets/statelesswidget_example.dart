@@ -9,7 +9,8 @@ class Mystatelesswidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Stateless Widget',
+      debugShowCheckedModeBanner: false,
+      title: 'Stateless Widget @flutterlearningjourney',
       home: Scaffold(
         body: Center(
           child: Text(

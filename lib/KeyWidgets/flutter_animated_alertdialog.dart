@@ -40,7 +40,7 @@ class OpenDialog extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Color.fromARGB(136, 92, 32, 1),
-          title: const Text('My First Animated Dialog Alert'),
+          title: const Text('My First Animated Dialog Alert @flutterlearningjourney'),
         ),
         body: Center(
             child: ElevatedButton(
