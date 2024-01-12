@@ -1,6 +1,6 @@
 # Flutter Learning Journey with miniProjects  
 
-![Your Icon](./assets/icons/your_icon.png)
+![Your Icon](./assets/icons/icon_app.jpg)
 Welcome to my Flutter Learning Journey repository! This repository contains code related to different chapters and mini projects as part of my learning experience in Flutter.
 
 ## Table of Contents
