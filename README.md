@@ -4,12 +4,13 @@ Welcome to my Flutter Learning Journey repository! This repository contains code
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [FlutterLearningJourney](#FlutterLearningJourney)
-- [Mini Projects](#mini-projects)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
+- [Flutter Learning Journey with miniProjects](#flutter-learning-journey-with-miniprojects)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [FlutterLearningJourney](#flutterlearningjourney)
+  - [Mini Projects](#mini-projects)
+  - [Contributing](#contributing)
+    - [How to Contribute](#how-to-contribute)
 
 ## Overview
 
@@ -21,16 +22,8 @@ The `FlutterLearningJourney` directory contains code organized by different chap
 
 ## Mini Projects
 
-Explore the `mini-projects` directory to find small applications and projects that I've implemented to practice and reinforce my understanding of Flutter. Each mini project is stored in a separate branch for better organization.
+Explore the `mini-projects` directory to find small applications and projects that I've implemented to practice and reinforce my understanding of Flutter. Each mini project is stored in a separate repository for better organization.
 
-note:
-In this version, the `Mini Projects` section emphasizes that each mini project is stored in a separate branch for better organization. Users can switch to the specific branch of interest to explore and work on individual mini projects.
-
-To explore a specific mini project:
-
-1. Select the branch corresponding to the project you're interested in.
-   ```bash
-   git checkout mini-project-branchName
 
 ## Contributing
 

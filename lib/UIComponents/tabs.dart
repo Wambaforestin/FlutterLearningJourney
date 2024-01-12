@@ -61,27 +61,152 @@ class TabBarDemo extends StatelessWidget {
               ],
             ),
           ),
-          body: const TabBarView(
+          body:  TabBarView(
             children: [
               Center(
-                child: Text('It\'s a car'),
+                child: Car(),
               ),
               Center(
-                child: Text('It\'s a transit'),
+                child: Transit(),
               ),
               Center(
-                child: Text('It\'s a bike'),
+                child: Bike(),
               ),
               Center(
-                child: Text('It\'s a boat'),
+                child: Boat(),
               ),
               Center(
-                child: Text('It\'s a walk'),
+                child: Walk(),
               ),
             ],
           ),
         ),
       ),
     );
+  } 
+}
+// creatting tabbarview for each tab. each tab has a different color and text and some icons so that we can see the difference between each tab.note use a staeful widget for this
+//for the car tab
+class Car extends StatefulWidget {
+  @override
+  _CarState createState() => _CarState();
+}
+
+class _CarState extends State<Car> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.red,
+      child: const Center(
+        child: Text(
+          'It\'s a car',
+          style: TextStyle(
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
   }
 }
+
+//for the transit tab
+class Transit extends StatefulWidget {
+  @override
+  _TransitState createState() => _TransitState();
+}
+
+class _TransitState extends State<Transit> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.blue,
+      child: const Center(
+        child: Text(
+          'It\'s a transit',
+          style: TextStyle(
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+//for the bike tab
+
+class Bike extends StatefulWidget {
+  @override
+  _BikeState createState() => _BikeState();
+}
+
+class _BikeState extends State<Bike> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.green,
+      child: const Center(
+        child: Text(
+          'It\'s a bike',
+          style: TextStyle(
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+//for the boat tab
+
+class Boat extends StatefulWidget {
+  @override
+  _BoatState createState() => _BoatState();
+}
+class _BoatState extends State<Boat> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.yellow,
+      child: const Center(
+        child: Text(
+          'It\'s a boat',
+          style: TextStyle(
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+//for the walk tab
+
+class Walk extends StatefulWidget {
+  @override
+  _WalkState createState() => _WalkState();
+}
+
+class _WalkState extends State<Walk> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.purple,
+      child: const Center(
+        child: Text(
+          'It\'s a walk',
+          style: TextStyle(
+            fontSize: 50,
+            color: Colors.white,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+

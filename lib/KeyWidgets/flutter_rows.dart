@@ -36,7 +36,7 @@ class _MyRowPageState extends State<MyRowPage> {
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: const Text(
-          'Flutter Column Demo @flutterlearningjourney',
+          'Flutter Row Demo @flutterlearningjourney',
             style: TextStyle(
               color: Colors.white,
               fontSize: 20.0,
@@ -45,7 +45,7 @@ class _MyRowPageState extends State<MyRowPage> {
           ),
       ),
       body: Center(
-        child: Column(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             Container(
@@ -55,10 +55,10 @@ class _MyRowPageState extends State<MyRowPage> {
                  color: Color.fromARGB(255, 48, 168, 0),
                 shape: BoxShape.circle,
               ),
-              child:Center(
+              child:const Center(
                 child: Text(
                   '1',
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 50,
                     color: Colors.white,
                   ),
@@ -72,10 +72,10 @@ class _MyRowPageState extends State<MyRowPage> {
                  color: Colors.red,
                 shape: BoxShape.circle,
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   '2',
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 50,
                     color: Colors.white,
                   ),
@@ -89,10 +89,10 @@ class _MyRowPageState extends State<MyRowPage> {
                  color: Color.fromARGB(255, 255, 251, 0),
                 shape: BoxShape.circle,
               ),
-              child: Center(
+              child: const Center(
                 child: Text(
                   '3',
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 50,
                     color: Colors.white,
                   ),
