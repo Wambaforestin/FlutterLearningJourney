@@ -1,6 +1,6 @@
 # Flutter Learning Journey with miniProjects  
 
-![Your Icon](./assets/icons/icon_app.jpg)
+<img src="./assets/icons/your_icon.png" alt="Your Icon" width="100" height="100">
 Welcome to my Flutter Learning Journey repository! This repository contains code related to different chapters and mini projects as part of my learning experience in Flutter.
 
 ## Table of Contents
