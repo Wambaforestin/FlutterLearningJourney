@@ -1,6 +1,5 @@
 # Flutter Learning Journey with miniProjects  
 
-<img src="./assets/icons/your_icon.png" alt="Your Icon" width="100" height="100">
 Welcome to my Flutter Learning Journey repository! This repository contains code related to different chapters and mini projects as part of my learning experience in Flutter.
 
 ## Table of Contents
@@ -32,8 +31,6 @@ The `FlutterLearningJourney` directory contains code organized by different chap
 ## Mini Projects
 
 Explore the `mini-projects` directory to find small applications and projects that I've implemented to practice and reinforce my understanding of Flutter. Each mini project is stored in a separate repository for better organization.
-
-(Still loading for now...................)
 
 ## Contributing
 

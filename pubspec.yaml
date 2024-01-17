@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   kf_drawer: ^1.2.1
   readmore: ^2.2.0
+  flutter_easyloading: ^3.0.5
 
 dev_dependencies:
   flutter_test:
