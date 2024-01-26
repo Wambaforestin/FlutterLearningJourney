@@ -9,6 +9,7 @@ Welcome to my Flutter Learning Journey repository! This repository contains code
   - [Overview](#overview)
   - [Chapters Covered](#chapters-covered)
     - [Key Widgets](#key-widgets)
+    - [UI Components](#ui-components)
   - [FlutterLearningJourney](#flutterlearningjourney)
   - [Mini Projects](#mini-projects)
   - [Contributing](#contributing)
@@ -22,7 +23,11 @@ This repository serves as a record of my learning journey in Flutter. It include
 
 ### Key Widgets
 
-In the "Key Widgets" chapter, we explore essential Flutter widgets that form the building blocks of Flutter applications. These widgets are crucial for creating interactive and dynamic user interfaces.
+Flutter provides a wide range of pre-built widgets for various UI elements, such as buttons, text, images.In the `Key Widgets` chapter, we explore essential Flutter widgets that form the building blocks of Flutter applications. These widgets are crucial for creating interactive and dynamic user interfaces.
+
+### UI Components
+
+In Flutter, `UI components` are building blocks that are used to create the user interface of a mobile or web application. These components, also known as widgets, are arranged in a tree structure to define the layout and appearance of the application. Flutter provides a rich set of customizable and reusable UI components, allowing developers to create visually appealing and interactive interfaces.
 
 ## FlutterLearningJourney
 

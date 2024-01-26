@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+// import 'package:flutterlearningjourney/KeyWidgets/divider.dart';
+import 'package:flutterlearningjourney/UIComponents/nested_scroll_view.dart';
+// import 'package:flutterlearningjourney/UIComponents/signature_view.dart';
+// import 'package:flutterlearningjourney/UIComponents/staggered_grid_view.dart';
 // import 'package:flutterlearningjourney/UIComponents/expanded_class.dart';
 // import 'package:flutterlearningjourney/UIComponents/flutter_dialogs.dart';
-import 'package:flutterlearningjourney/UIComponents/linear_and_circular_progess_bar.dart';
+// import 'package:flutterlearningjourney/UIComponents/linear_and_circular_progess_bar.dart';
 // import 'package:flutterlearningjourney/UIComponents/flutter_easy_loading.dart';
 // import 'package:flutterlearningjourney/UIComponents/horizonat_list.dart';
 // import 'package:flutterlearningjourney/UIComponents/making_card_clickable.dart';a
@@ -19,7 +23,7 @@ import 'package:flutterlearningjourney/UIComponents/linear_and_circular_progess_
 
 
 void main() {
-  runApp(const MyLoader());
+  runApp(const MyNestedScrollView());
 }
 
 class MyApp extends StatelessWidget {
