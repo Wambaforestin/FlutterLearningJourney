@@ -1,6 +1,6 @@
 # Flutter Learning Journey with miniProjects  
 
-Welcome to my Flutter Learning Journey repository! This repository contains code related to different chapters and mini projects as part of my learning experience in Flutter.
+Welcome to my Flutter Learning Journey repository! This repository contains code related to different chapters as part of my learning experience in Flutter.
 
 ## Table of Contents
 
@@ -55,7 +55,8 @@ Make changes:
 Implement your changes or additions to the codebase.
 
 Test your changes:
-Ensure your changes work as expected.
+-->Ensure your changes work as expected.
+-->Ensure that your depedencies are up to date.
 
 Commit your changes && Push to your fork:
         git commit -m "Add: Your concise commit message here"
@@ -63,6 +64,7 @@ Commit your changes && Push to your fork:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [getting started with Dart](https://www.youtube.com/watch?v=lzNqLROLRRk&list=PL3s-_QXY9PwXJhxY-BeBn-067NCtVIWJ4)
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,

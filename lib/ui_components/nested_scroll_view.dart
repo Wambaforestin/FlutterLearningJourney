@@ -46,7 +46,7 @@ class MyNSV extends StatelessWidget {
               pinned: true,
               flexibleSpace: FlexibleSpaceBar(
                   centerTitle: true,
-                  title: const Text(
+                  title:  const Text(
                     "Collapsing Toolbar",
                     style: TextStyle(
                       color: Colors.black,
