@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutterlearningjourney/key_widgets/textspan.dart';
-import 'package:flutterlearningjourney/mini_projects/my_counter_app.dart';
+import 'package:flutterlearningjourney/home_app/home.dart';
 
 void main() {
-  runApp(const MyCounterApp());
+  runApp(const MyHome());
 }
 
 class MyApp extends StatelessWidget {
