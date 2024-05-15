@@ -278,7 +278,7 @@ class _WithPages extends State<WithPages> {
               preferDragFromRevealedArea: true,
               enableSideReveal: true,
               ignoreUserGestureWhileAnimating: true,
-              enableLoop: false,
+              enableLoop: true,
             ),
             Padding(
               padding: const EdgeInsets.all(20),
