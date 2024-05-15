@@ -1,9 +1,6 @@
 // creating a simple flutter app to demonstrate an expanded widget
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyExpandedClass());
-}
 
 class MyExpandedClass extends StatelessWidget {
   const MyExpandedClass({super.key});

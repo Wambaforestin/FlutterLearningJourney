@@ -41,6 +41,12 @@ The `FlutterLearningJourney` directory contains code organized by different chap
 ## Mini Projects
 
 Explore the `mini-projects` directory to find small applications and projects that I've implemented to practice and reinforce my understanding of Flutter. Other mini project are stored in a separate repository for better organization.
+`List of all the miniprojects`
+<table>
+  <tr>
+      <td>MyCounterApp</td>
+  </tr>
+</table>
 
 ## Contributing
 

@@ -5,10 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/key_widgets/divider.dart';
 
-void main() {
-  runApp(const MyAdvanceDrawer());
-}
-
 class MyAdvanceDrawer extends StatelessWidget {
   const MyAdvanceDrawer({super.key});
 

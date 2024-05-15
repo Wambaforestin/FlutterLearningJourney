@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
-import 'package:flutterlearningjourney/design_and_animations/custom_font.dart';
+import 'package:flutterlearningjourney/design_and_animations/route_transition.dart';
 import 'package:flutterlearningjourney/key_widgets/advance_drawer.dart';
 import 'package:flutterlearningjourney/mini_projects/my_counter_app.dart';
 import 'package:flutterlearningjourney/ui_components/expanded_class.dart';
@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
       "index": "3",
       "name": "Design and Animations",
       "image": "assets/images/flutter-banner.png",
-      "base": 4
+      "base": 5
     },
     {
       "index": "4",
@@ -61,11 +61,9 @@ class _HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: AppColors.appBackground,
       appBar: AppBar(
-        title: const Text("Flutter Learning Journey"),
+        title: const Text("Flutter Learning Journey App"),
         backgroundColor: AppColors.primaryColor,
         actions: [
-          // adding a contact me button to display the link to email,github and linkedin
-
           IconButton(
             onPressed: () {
               showDialog(
@@ -137,7 +135,7 @@ class _HomeState extends State<Home> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => const CustomFonts(),
+                                builder: (context) => const RouteTransition(),
                               ),
                             );
                             break;
