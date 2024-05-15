@@ -46,7 +46,7 @@ class _HomeState extends State<Home> {
       "index": "3",
       "name": "Design and Animations",
       "image": "assets/images/flutter-banner.png",
-      "base": 5
+      "base": 7
     },
     {
       "index": "4",

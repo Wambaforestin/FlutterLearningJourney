@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/custom_widgets/main_appbar.dart';
-import 'package:flutterlearningjourney/home_app/home.dart';
+import 'package:flutterlearningjourney/design_and_animations/custom_font.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 
 ///Example of App with LiquidSwipe by providing list of widgets
@@ -334,7 +334,7 @@ class _WithPages extends State<WithPages> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const MyHome(),
+              builder: (context) => const CustomFonts(),
             ),
           );
         },
