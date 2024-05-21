@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 
 void main() {
   runApp(const MyCounterApp());
@@ -35,15 +36,16 @@ class _MyCounterAppState extends State<MyCounterApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: AppColors.appBackground,
         appBar: AppBar(
           title: const Text(
-            'My Counter App @flutterlearningjourney',
+            'My Counter App',
             style: TextStyle(
                 color: Colors.white,
                 fontSize: 13,
                 fontFamily: 'XanhMono-Regular'),
           ),
-          backgroundColor: const Color.fromARGB(255, 13, 127, 172),
+          backgroundColor: AppColors.primaryColor,
           centerTitle: true,
         ),
         body: Column(
@@ -51,11 +53,12 @@ class _MyCounterAppState extends State<MyCounterApp> {
           children: [
             Text(
               sayNumberPushes(
-                message: (_counter >= 0) ? 'Posistive numbers' : 'Negative numbers',
+                message:
+                    (_counter >= 0) ? 'Posistive numbers' : 'Negative numbers',
               ),
               style: const TextStyle(
                 fontSize: 20,
-                color: Color.fromARGB(255, 13, 127, 172),
+                color: AppColors.primaryColor,
                 fontFamily: 'XanhMono-Regular',
               ),
             ),
@@ -67,7 +70,7 @@ class _MyCounterAppState extends State<MyCounterApp> {
               children: <Widget>[
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 13, 127, 172),
+                    backgroundColor: AppColors.primaryColor,
                   ),
                   onPressed: () {
                     // do something
@@ -83,7 +86,7 @@ class _MyCounterAppState extends State<MyCounterApp> {
                     )),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color.fromARGB(255, 13, 127, 172),
+                    backgroundColor: AppColors.primaryColor,
                   ),
                   onPressed: () {
                     // do something

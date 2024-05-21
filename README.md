@@ -12,6 +12,7 @@ Welcome to my Flutter Learning Journey repository! This repository contains code
     - [UI Components](#ui-components)
     - [Design and Animations](#design-and-animations)
     - [Form and Gestures](#form-and-gestures)
+    - [Navigation and routing](#navigation-and-routing)
   - [FlutterLearningJourney](#flutterlearningjourney)
   - [Mini Projects](#mini-projects)
   - [Contributing](#contributing)
@@ -38,6 +39,10 @@ In the `Design and Animations` section, we explore Flutter's robust design and a
 ### Form and Gestures
 
 In the Form and Gestures section, we delve into Flutter's comprehensive form handling and gesture recognition capabilities, enabling developers to build intuitive and responsive applications that cater to user input and interaction seamlessly.
+
+### Navigation and routing
+
+Navigation and routing enable you to move between different screens in your application. This is essential for creating a smooth and user-friendly experience. Flutter provides a robust navigation system that includes basic navigation, named routes, and nested routes.
 
 ## FlutterLearningJourney
 
