@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/design_and_animations/route_transition.dart';
+import 'package:flutterlearningjourney/form_and_gestion/form_validation.dart';
 import 'package:flutterlearningjourney/key_widgets/advance_drawer.dart';
 import 'package:flutterlearningjourney/mini_projects/my_counter_app.dart';
 import 'package:flutterlearningjourney/ui_components/expanded_class.dart';
@@ -34,13 +35,13 @@ class _HomeState extends State<Home> {
       "index": "1",
       "name": "Key Widget",
       "image": "assets/images/flutter-banner.png",
-      "base": 14
+      "base": 15
     },
     {
       "index": "2",
       "name": "UI Components",
       "image": "assets/images/flutter-banner.png",
-      "base": 10
+      "base": 11
     },
     {
       "index": "3",
@@ -50,6 +51,12 @@ class _HomeState extends State<Home> {
     },
     {
       "index": "4",
+      "name": "Form and Gesture",
+      "image": "assets/images/flutter-banner.png",
+      "base": 3
+    },
+    {
+      "index": "5",
       "name": "Mini Projects",
       "image": "assets/images/flutter-banner.png",
       "base": 1
@@ -140,6 +147,14 @@ class _HomeState extends State<Home> {
                             );
                             break;
                           case "4":
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const MyForm(),
+                              ),
+                            );
+                            break;
+                          case "5":
                             Navigator.push(
                               context,
                               MaterialPageRoute(

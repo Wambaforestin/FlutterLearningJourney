@@ -1,5 +1,7 @@
 // creating a simple flutter divider
 import 'package:flutter/material.dart';
+import 'package:flutterlearningjourney/custom_widgets/colors.dart';
+import 'package:flutterlearningjourney/key_widgets/rating_star_bar.dart';
 
 void main() {
   runApp(const MyDivider());
@@ -14,22 +16,23 @@ class MyDivider extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Divider Example',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        focusColor: AppColors.primaryColor,
       ),
-      home: const MyHomePage(title: 'Divider Example @flutterlearningjourney'),
+      home: const MyHomePage(title: 'Divider Example'),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
-   const MyHomePage({super.key, required this.title});
+  const MyHomePage({super.key, required this.title});
   final String title;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.appBackground,
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: AppColors.primaryColor,
         title: Text(title),
       ),
       body: ListView(
@@ -42,7 +45,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -56,7 +59,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -70,7 +73,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -84,7 +87,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -98,7 +101,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -112,7 +115,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -126,7 +129,7 @@ class MyHomePage extends StatelessWidget {
             },
           ),
           const Divider(
-            color: Colors.blue,
+            color: AppColors.primaryColor,
             height: 20,
             thickness: 5,
             indent: 10,
@@ -139,8 +142,19 @@ class MyHomePage extends StatelessWidget {
               // do something
             },
           ),
-          
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const RatingStarBar(),
+            ),
+          );
+        },
+        backgroundColor: AppColors.primaryColor,
+        child: const Icon(Icons.arrow_forward),
       ),
     );
   }

@@ -11,6 +11,7 @@ Welcome to my Flutter Learning Journey repository! This repository contains code
     - [Key Widgets](#key-widgets)
     - [UI Components](#ui-components)
     - [Design and Animations](#design-and-animations)
+    - [Form and Gestures](#form-and-gestures)
   - [FlutterLearningJourney](#flutterlearningjourney)
   - [Mini Projects](#mini-projects)
   - [Contributing](#contributing)
@@ -32,7 +33,11 @@ In Flutter, `UI components` are building blocks that are used to create the user
 
 ### Design and Animations
 
-In the Design and Animations section, we explore Flutter's robust design and animation features, empowering developers to create visually stunning and dynamic user interfaces
+In the `Design and Animations` section, we explore Flutter's robust design and animation features, empowering developers to create visually stunning and dynamic user interfaces
+
+### Form and Gestures
+
+In the Form and Gestures section, we delve into Flutter's comprehensive form handling and gesture recognition capabilities, enabling developers to build intuitive and responsive applications that cater to user input and interaction seamlessly.
 
 ## FlutterLearningJourney
 
@@ -63,7 +68,7 @@ Thank you for considering contributing to this Flutter Learning Journey reposito
    git checkout -b feature/new-contribution
 
 Make changes:
-Implement your changes or additions to the codebase.
+Implement your changes or additions to the codebase
 
 Test your changes:
 -->Ensure your changes work as expected.

@@ -1,6 +1,7 @@
 // creating a simple flutter app to demonstrate an expanded widget
 import 'package:flutter/material.dart';
-
+import 'package:flutterlearningjourney/custom_widgets/colors.dart';
+import 'package:flutterlearningjourney/ui_components/search_bar.dart';
 
 class MyExpandedClass extends StatelessWidget {
   const MyExpandedClass({super.key});
@@ -14,9 +15,10 @@ class MyExpandedClass extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        backgroundColor: AppColors.appBackground,
         appBar: AppBar(
-          backgroundColor: Colors.lightBlueAccent,
-          title: const Text('Expanded Widget @flutterlearningjourney'),
+          backgroundColor: AppColors.primaryColor,
+          title: const Text('Expanded Widget'),
         ),
         body: Center(
           child: Column(
@@ -50,6 +52,18 @@ class MyExpandedClass extends StatelessWidget {
               ),
             ],
           ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const SearchBarr(),
+              ),
+            );
+          },
+          backgroundColor: AppColors.primaryColor,
+          child: const Icon(Icons.arrow_forward),
         ),
       ),
     );

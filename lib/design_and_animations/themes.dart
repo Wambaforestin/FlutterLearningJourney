@@ -21,15 +21,15 @@ class MyThemes extends StatelessWidget {
 
         // texttheme..
         textTheme: const TextTheme(
-          headline1: TextStyle(
+          displayLarge: TextStyle(
             fontSize: 72.0,
             fontWeight: FontWeight.bold,
           ),
-          headline6: TextStyle(
+          titleLarge: TextStyle(
             fontSize: 36.0,
             fontStyle: FontStyle.italic,
           ),
-          bodyText2: TextStyle(
+          bodyMedium: TextStyle(
             fontSize: 14.0,
             fontFamily: 'XanhMono',
           ),
