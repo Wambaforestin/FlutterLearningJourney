@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import "package:flutterlearningjourney/custom_widgets/colors.dart";
 import "package:flutterlearningjourney/custom_widgets/main_appbar.dart";
-import "package:flutterlearningjourney/form_and_gestion/password_validation.dart";
+import "package:flutterlearningjourney/form_and_gestures/password_validation.dart";
 
 class MyForm extends StatelessWidget {
   const MyForm({super.key});

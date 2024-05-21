@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/custom_widgets/main_appbar.dart';
-import 'package:flutterlearningjourney/form_and_gestion/form_page.dart';
+import 'package:flutterlearningjourney/form_and_gestures/form_page.dart';
 
 class PasswordValidation extends StatefulWidget {
   const PasswordValidation({super.key});

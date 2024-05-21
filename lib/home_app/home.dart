@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/design_and_animations/route_transition.dart';
-import 'package:flutterlearningjourney/form_and_gestion/form_validation.dart';
+import 'package:flutterlearningjourney/form_and_gestures/form_validation.dart';
 import 'package:flutterlearningjourney/key_widgets/advance_drawer.dart';
 import 'package:flutterlearningjourney/mini_projects/my_counter_app.dart';
 import 'package:flutterlearningjourney/ui_components/expanded_class.dart';

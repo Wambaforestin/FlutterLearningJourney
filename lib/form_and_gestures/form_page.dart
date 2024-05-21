@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlearningjourney/custom_widgets/colors.dart';
 import 'package:flutterlearningjourney/custom_widgets/main_appbar.dart';
-import 'package:flutterlearningjourney/form_and_gestion/next_form_page.dart';
+import 'package:flutterlearningjourney/form_and_gestures/next_form_page.dart';
 import 'package:flutterlearningjourney/home_app/home.dart';
 
 class FormPage extends StatefulWidget {
